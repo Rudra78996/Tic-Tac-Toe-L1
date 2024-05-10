@@ -55,7 +55,7 @@ let end=(move)=>{
         }
         else if(win("X")){
             result.innerText='X WINNER!!'
-            line.style.backgroundColor="#dc3545"
+            line.style.backgroundColor="#007bff"
             result.classList.add("x");
             document.querySelector('.again').classList.add('visible');
         }else{
